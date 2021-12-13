@@ -1,0 +1,12 @@
+.footer-container {
+  grid-area: footercontainer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #C5C5C6;
+  color: black;
+  text-align: center;
+  font-size: 19px;
+  margin-top: 15px;
+  font-family: 'Gill Sans';
+}
