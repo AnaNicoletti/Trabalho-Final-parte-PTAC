@@ -1,20 +1,27 @@
 .horizontal-container {
   grid-area: menuhorizontal;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+  width: 100%;
 	height: 100%;
   background-color: #C5C5C6;
-  font-family: 'Gill Sans';
-}
-
-.logo-container .logo {
-	color: var(--logo-font-color);
-	font-size: 2.4rem;
-	font-weight: 900;
+  text-align: center;
 }
 
 .img{
-  width: 130px;
+  margin-left: -96px;
+  position: absolute;
+  top: 1%;
+}
+
+.menu{
+  font-size: 23px;
+  color: black;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.icons{
+  padding: 1.5rem;
+  float: right;
+  margin-right: 12px;
+  margin-top: 5px;
 }

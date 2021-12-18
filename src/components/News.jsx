@@ -21,8 +21,10 @@ function News() {
 	}, [])
 
 	return (
+    <div className='noticias'>
+    <h2>Últimas Notícias</h2>
+    
 		<main className='news-container'>
-
 			{
 				noticias.map(noticia => {
 					return (
@@ -34,6 +36,7 @@ function News() {
 			}
 
 		</main>
+    </div>
 	)
 }
 

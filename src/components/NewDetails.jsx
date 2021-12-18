@@ -7,7 +7,7 @@ import './NewDetails.css'
 function NewDetails() {
 	let params = useParams()
 
-	const [noticia, setNoticia] = useState([])
+	const [noticia, setNoticia] = useState({})
 
 	useEffect(() => {
 		api

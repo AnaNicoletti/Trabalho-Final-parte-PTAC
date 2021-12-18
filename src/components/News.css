@@ -1,7 +1,14 @@
+.noticias h2{
+  background-color: #DEDEDE;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 0px;
+  font-size: 23px;
+}
+
 .news-container {
 	grid-area: newscontainer;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-  font-family: 'Gill Sans';
 }
